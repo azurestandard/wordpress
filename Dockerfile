@@ -1,4 +1,5 @@
 FROM debian:wheezy
+MAINTAINER Azure Standard <software@azurestandard.com>
 
 RUN apt-get update && apt-get install -y \
 		apache2 \
